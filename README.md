@@ -1,7 +1,7 @@
 # Playerbase Data Analysis
 
 # Prompt
-Using the provided dataset for the free-to-play video game generate a report about the player base. Explore the following points of interest
+Using the provided dataset for the free-to-play video game generate a report about the player base. Explore the following points of interest:
 1. Total Number of Players  
 2. Purchasing Analysis (Total)  
 3. Gender Demographics
@@ -69,23 +69,3 @@ Using the provided dataset for the free-to-play video game generate a report abo
 2) The player base is predominantly male but the average spending was close amongst the genders. With female players spending the most per person on average.
 
 3) The item "Final Critic" had prices of 4.88 and 4.19. This temporary 14% reduction in price resulted to it being the most popular and most profitable item in the game.
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-  
-  
-   
-
