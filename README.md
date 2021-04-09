@@ -1,55 +1,25 @@
-# Pandas Challenge
+# Playerbase Data Analysis
 
-## Prompt
-Using the provided dataset for the fictional free-to-play video game generate a report that includes the following items:  
+# Prompt
+Using the provided dataset for the free-to-play video game generate a report about the player base. Explore the following points of interest
 1. Total Number of Players  
 2. Purchasing Analysis (Total)  
-    * Number of Unique Items
-    * Average Purchase Price
-    * Total Number of Purchases
-    * Total Revenue
 3. Gender Demographics
-    * Percentage and Count of Male Players
-    * Percentage and Count of Female Players
-    * Percentage and Count of Other / Non-Disclosed  
-4. Purchasing Analysis (Gender)  
-    * Purchase Count
-    * Average Purchase Price
-    * Total Purchase Value
-    * Average Purchase Total per Person by Gender  
+4. Purchasing Analysis (Gender)   
 5. Age Demographics  
-_The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)_
-    * Purchase Count
-    * Average Purchase Price
-    * Total Purchase Value
-    * Average Purchase Total per Person by Age Group
-6. Top Spenders  
-_Identify the the top 5 spenders in the game by total purchase value, then list (in a table):_
-    * SN
-    * Purchase Count
-    * Average Purchase Price
-    * Total Purchase Value  
+6. Top Spenders   
 7. Most Popular Items  
-_Identify the 5 most popular items by purchase count, then list (in a table):_  
-    * Item ID
-    * Item Name
-    * Purchase Count
-    * Item Price
-    * Total Purchase Value  
-8. Most Profitable Items  
-_Identify the 5 most profitable items by total purchase value, then list (in a table):_
-    * Item ID
-    * Item Name
-    * Purchase Count
-    * Item Price
-    * Total Purchase Value
+8. Most Profitable Items
+
+# Dependencies
+* Jupyter Notebook
+* Pandas
+* Numpy
   
-## Process  
-- **Dependencies and Setup**  
-    * Pandas
-    * Numpy  
-    
-  The data is stored in a CSV to read the csv we use Panda's `read_csv()` and save it to a variable. A master dataframe in created from that CSV. Now we can use the dataset throughout the jupyter notebook.  
+# Process  
+
+  * Data Wrangling  
+   The data is stored in a CSV to read the csv we use Panda's `read_csv()` and save it to a variable. A master dataframe in created from that CSV. Now we can use the dataset throughout the jupyter notebook.  
   
   <img src="HeroesOfPymoli/Resources/images/Dataframe.png" height="auto"> 
 
