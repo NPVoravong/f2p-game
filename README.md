@@ -18,18 +18,24 @@ Using the provided dataset for the free-to-play video game generate a report abo
   
 # Process  
 
-  * Data Wrangling  
+  1. Data Wrangling  
    The data is stored in a CSV to read the csv we use Panda's `read_csv()` and save it to a variable. A master dataframe in created from that CSV. Now we can use the dataset throughout the jupyter notebook.  
   
   <img src="HeroesOfPymoli/Resources/images/Dataframe.png" height="auto"> 
+  
+  2. Analysis
 
-1. **Total Number of Players** 
-  Each row within the CSV is different purchase within the game. However, there is no limit on how many purchases a player can make so using the total number of purchases won't work. To find the actual number of players we need to get the number of unique player names and count the length of that list. `value_counts()` can be used on the dataframe to confirm that some players made more than one purchase.
+      - **Total Number of Players**
+
+        Each row within the CSV is different purchase within the game. However, there is no limit on how many purchases a player can make so using the total number of purchases won't work. To find the actual number of players we need to get the number of unique player names and count the length of that list. `value_counts()` can be used on the dataframe to confirm that some players made more than one purchase.
+        
+       - **Purchasing Analysis (Total)**
+
+          To get the purchasing data we're interested the full dataframe needs to be trimmed down to just the relevant data. This reduced data is then converted into a dictionary with the data points of interst as the keys and the formulas to get the numbers as the values. The raw numberical values are fomatted using `.map()` and the appropritate format tag to make the data more readable.
 
 <img src="HeroesOfPymoli/Resources/images/ValueCount.png" height="auto"> 
 
-2. **Purchasing Analysis (Total)**  
-To get the purchasing data we're interested the full dataframe needs to be trimmed down to just the relevant data. This reduced data is then converted into a dictionary with the data points of interst as the keys and the formulas to get the numbers as the values. The raw numberical values are fomatted using `.map()` and the appropritate format tag to make the data more readable.
+
 
 <img src="HeroesOfPymoli/Resources/images/Purchase.png" height="auto"> 
 
